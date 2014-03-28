@@ -74,6 +74,12 @@ void draw() {
   opencv.contrast(2.0);  //1.0+ increases contrast
   opencv.inRange(75, 255);  //Pixels within this range are made white, others made black
 
+
+
+  contourBoundaries.update();
+
+
+
   //Finally, draw the diff image to the window, so we can make sure it looks right
   pushMatrix(); //used to keep scale from interfering with other sketch elements
 
