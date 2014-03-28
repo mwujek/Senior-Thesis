@@ -4,14 +4,12 @@ class Surface {
   Surface() {
 
     surface = new ArrayList<Vec2>();
- for (int i = 0; i<10; i++){
-   int f = i*50;
-   float g = -i*random(100);
+
    
    
     surface.add(new Vec2(0, height));
-    surface.add(new Vec2(width,height));
-    }
+    surface.add(new Vec2(width,height-100));
+    
     //surface.add(new Vec2(width/2, height-50));
 //    surface.add(new Vec2(width-50, height/2));
 //     surface.add(new Vec2(width/2, 50));
@@ -40,7 +38,7 @@ class Surface {
 
   void display() {
     strokeWeight(1);
-    stroke(255);
+    stroke(100,100);
     noFill();
     //[full] Draw the ChainShape as a series of vertices.
     beginShape();

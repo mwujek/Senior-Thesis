@@ -10,12 +10,9 @@ import org.jbox2d.dynamics.*;
 // A list for all of the circles
 ArrayList<Circle> circles;
 Surface surface;
+LiveSurface contourBoundaries;
+
 Box2DProcessing box2d;  
-
-
-
-
-
 
 PImage bg;
 Capture video;
@@ -48,10 +45,12 @@ void setup() {
   // Create ArrayLists
   circles = new ArrayList<Circle>();
   surface = new Surface();
+  contourBoundaries = new LiveSurface();
+  //circles = new ArrayList<LiveSurface>(); //ARRAY OF LIVE SURFACE POINTS (DRAWN EVERY FRAME)
 }
 
 void draw() {
-
+ background(0);
   //Update OpenCV object with latest from camera
   opencv.loadImage(video);
 
@@ -84,15 +83,14 @@ void draw() {
 
   //Prepare to draw contours
   strokeWeight(0.1);
-   background(0);
+  
 
   // contours and then draw them to screen
   for (Contour contour : opencv.findContours(false, true)) {  //Contours will be sorted by area, largest first
 
     //Contours are red
     noStroke();
-    //stroke(255, 0, 0);
-
+    stroke(255, 0, 0);
     noFill();
 
     //Rectangles (bounding boxes) are blue
@@ -102,8 +100,7 @@ void draw() {
 
     //Get the individual points from the contour
 
-    fill(0, 255, 0);
-    noStroke();
+    
     beginShape();
     for (PVector p : contour.getPolygonApproximation().getPoints()) {
       vertex(p.x, p.y);
@@ -117,6 +114,7 @@ void draw() {
   box2d.step();    
 
   surface.display();
+  contourBoundaries.display();
 
   // When the mouse is clicked, add a new Circle object
   if (frameCount % 10 ==0) {
