@@ -2,8 +2,6 @@ source code for my senior thesis project
 
 ### Questions for Scott
 
-- How to return array info from a for loop (inside liveSurface object)
-- How to setup processing sketches in git (folder/library dependencies)
 - Andriod Mode / OSC setup...resources/forums
 - Kiosk mode
 
