@@ -1,8 +1,13 @@
 source code for my senior thesis project
 
-#to do list
+### Questions for Scott
 
-###now
+- How to return array info from a for loop (inside liveSurface object)
+- How to setup processing sketches in git (folder/library dependencies)
+- Andriod Mode / OSC setup...resources/forums
+- Kiosk mode
+
+### now
 
 - ~~fixed boundary w/ box2D~~
 - fix contour rendering (constrain circles within moving boundaries)
