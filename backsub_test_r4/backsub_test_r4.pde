@@ -50,7 +50,9 @@ void setup() {
 }
 
 void draw() {
+  println("This is the "+frameRate);
  background(0);
+  
   //Update OpenCV object with latest from camera
   opencv.loadImage(video);
 
@@ -73,9 +75,11 @@ void draw() {
   //opencv.brightness(200);
   opencv.contrast(2.0);  //1.0+ increases contrast
   opencv.inRange(75, 255);  //Pixels within this range are made white, others made black
-  contourBoundaries.update();
+
+  
   
 pushMatrix();
+contourBoundaries.display();
 scale(scaleFactor);
   
 
@@ -97,7 +101,8 @@ scale(scaleFactor);
 
     //Contours are red
     noStroke();
-    stroke(255, 0, 0);
+    
+    //stroke(255, 0, 0);
     noFill();
 
     //Rectangles (bounding boxes) are blue
@@ -118,7 +123,9 @@ scale(scaleFactor);
  
    ellipse(mouseX,mouseY,55,55);
   //Begin BOX2d
-  box2d.step();    
+  box2d.step();   
+   
+ 
 
   //surface.display();
   //contourBoundaries.display();
@@ -128,13 +135,14 @@ scale(scaleFactor);
     Circle p = new Circle(random((width/2)-100, (width/2)+100), random((height/2)-100, (height/2)+100));
     circles.add(p);
   }
-
   // Display all the circles
   for (Circle b: circles) {
     b.display();
   }
- 
-  //end BOX2d
+  contourBoundaries.update();
+// The old contour boundaries need to be reset!  
+//  contourBoundaries.resetPoints();
+
 }
 
 

@@ -3,7 +3,7 @@ class LiveSurface {
 
 
   //Variables
-  ArrayList<Vec2> liveSurface;
+  ArrayList<Vec2> points;
   //  Instead of any of the usual variables, this will store a reference to a Box2D Body
 
 
@@ -12,18 +12,18 @@ class LiveSurface {
   LiveSurface() {
 
     //Initially, make a default surface
-    liveSurface = new ArrayList<Vec2>(); //how do i return values from a for loop
-    liveSurface.add(new Vec2(0, height));
-    liveSurface.add(new Vec2(width, height-100));
+    points = new ArrayList<Vec2>(); //how do i return values from a for loop
+    points.add(new Vec2(0, height));
+    points.add(new Vec2(width, height-100));
 
     ChainShape chain = new ChainShape();
 
     // Make an array of Vec2 (from openCV) for the ChainShape.
-    Vec2[] contourVertices = new Vec2[liveSurface.size()];
+    Vec2[] contourVertices = new Vec2[points.size()];
 
     for (int i = 0; i < contourVertices.length; i++) {
       // Convert each vertex to Box2D World coordinates.
-      contourVertices[i] = box2d.coordPixelsToWorld(liveSurface.get(i));
+      contourVertices[i] = box2d.coordPixelsToWorld(points.get(i));
     }
 
     // Create the ChainShape with array of Vec2.
@@ -41,7 +41,7 @@ class LiveSurface {
   //Additional methods 
 
   void update() {
-
+      
     println("I found " + opencv.findContours().size() + " many contours");
 
     //Only update if at least one contour has been found
@@ -49,7 +49,7 @@ class LiveSurface {
 
 
       //Reset the surface
-      liveSurface = new ArrayList<Vec2>();
+      points = new ArrayList<Vec2>();
 
       //openCV code below
       
@@ -59,7 +59,7 @@ class LiveSurface {
 
         //Get the individual points from the contour
         for (PVector p : contour.getPolygonApproximation().getPoints()) {
-          liveSurface.add(new Vec2(p.x, p.y));
+          points.add(new Vec2(p.x*10, p.y*10)); //*10 bc of scaleValue (program=faster)
         }
         
       }
@@ -67,11 +67,11 @@ class LiveSurface {
       ChainShape chain = new ChainShape();
 
       // Make an array of Vec2 (from openCV) for the ChainShape.
-      Vec2[] contourVertices = new Vec2[liveSurface.size()];
+      Vec2[] contourVertices = new Vec2[points.size()];
 
       for (int i = 0; i < contourVertices.length; i++) {
         // Convert each vertex to Box2D World coordinates.
-        contourVertices[i] = box2d.coordPixelsToWorld(liveSurface.get(i));
+        contourVertices[i] = box2d.coordPixelsToWorld(points.get(i));
       }
 
       // Create the ChainShape with array of Vec2.
@@ -89,13 +89,13 @@ class LiveSurface {
 
 
   void display() {
-    strokeWeight(5); //add strokeweight
+    strokeWeight(10); //add strokeweight
     stroke(#ffcc00); //gold stroke
     noFill();
 
     // Draw the ChainShape as a series of vertices.
     beginShape();
-    for (Vec2 v: liveSurface) {
+    for (Vec2 v: points) {
       vertex(v.x, v.y);
     }
 
