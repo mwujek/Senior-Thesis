@@ -51,7 +51,7 @@ class LiveSurface {
 //      }
 
 
-    println("I found " + opencv.findContours().size() + " many contours");
+    //println("I found " + opencv.findContours().size() + " many contours");
 
     //Only update if at least one contour has been found
     if (opencv.findContours().size() > 0) {
@@ -65,9 +65,14 @@ class LiveSurface {
       //>>>>instead of for looping, just grab the first arraylist item
       
       for (Contour contour : opencv.findContours(false, true)) {  //Contours will be sorted by area, largest first
-        <Contour>[0] = points.add(new Vec2(p.x*10, p.y*10)); //*10 bc of scaleValue (program=faster)
+        //<Contour>[0] = points.add(new Vec2(p.x*10, p.y*10));
+        println(contour);
+        
         //Get the individual points from the contour
-//        for (PVector p : contour.getPolygonApproximation().getPoints()) {
+        //outlinePeople = new PVector(40, 20);
+        for (PVector p : contour.getPolygonApproximation().getPoints()) {
+  points.add(new Vec2(p.x*10, p.y*10)); //*10 bc of scaleValue (program=faster)
+}
           
         
         
@@ -91,7 +96,6 @@ class LiveSurface {
       BodyDef bd = new BodyDef();
       Body body = box2d.world.createBody(bd);
       body.createFixture(chain,50); //density after comma
-      println(reset);
      
         if(reset){
            box2d.world.destroyBody(body);

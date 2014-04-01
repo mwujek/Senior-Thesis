@@ -140,6 +140,19 @@ scale(scaleFactor);
     b.display();
   }
   contourBoundaries.update();
+  //Perhaps, I could add an array in the setup and it would have 2 entries: the current frame and the past frame.
+  //Every time the draw loop is completed, the old frame will destroyBody() and the current frame will create a new body.
+  //after these functions are called, eject the old frame from the f
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 // The old contour boundaries need to be reset!  
 //  contourBoundaries.resetPoints();
 
