@@ -1,10 +1,3 @@
-source code for my senior thesis project
-
-### Questions for Scott
-
-- Andriod Mode / OSC setup...resources/forums
-- Kiosk mode
-
 ### now
 
 - ~~fixed boundary w/ box2D~~
@@ -20,7 +13,7 @@ source code for my senior thesis project
 - kill bodies/circles after x amount of time.
 - framecount averaging for smoother transitions
 - Tablet Kiosk Mode
-
+- Andriod Mode / OSC setup...resources/forums
 
 ##### research + design + documentation
 
