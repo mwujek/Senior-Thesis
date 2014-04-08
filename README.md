@@ -2,8 +2,8 @@
 
 - ~~fixed boundary w/ box2D~~
 - ~~fix contour rendering (constrain circles within moving boundaries)~~
-- create more fluid experience (smoother polygon, think about bubble placement, fills, and fixture destruction)
-- kill bodies/circles after x amount of time.
+- ~~create more fluid experience (smoother polygon, think about bubble placement, fills, and fixture destruction)~~
+- ~~kill bodies/circles after x amount of time~~
 - create open OSC variables test (need op5 in conjunction with android application)
 
 
