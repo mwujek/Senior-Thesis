@@ -1,20 +1,15 @@
-### now
+## Days to milestone
+### now 
 
-- ~~fixed boundary w/ box2D~~
-- ~~fix contour rendering (constrain circles within moving boundaries)~~
-- ~~create more fluid experience (smoother polygon, think about bubble placement, fills, and fixture destruction)~~
-- ~~kill bodies/circles after x amount of time~~
-- create open OSC variables test (need op5 in conjunction with android application)
-
+- divide screen into two sections
+- double up circle and attractor classes
+- make a seperate sketch for double classes 
+- for new sketch, only intiate one circle class, but setup ALL classes
 
 ### later
 
-- divide screen into two sections
-- make different classes for 4 circle types (myers-briggs: E/I, N/S, T/F, and J/P)
 - connect / link similar circle classes
-- framecount averaging for smoother transitions
 - Tablet Kiosk Mode
-- Andriod Mode / OSC setup...resources/forums
 
 ##### research + design + documentation
 
@@ -29,3 +24,15 @@
 - make one display table with instructions
 - removable matte vinyl decal (~$40)
 - tablet security
+
+
+##### questions for RB
+
+- subwoofers need to move
+- ipads for rent from USF?
+- mac mini processing speed and RAM?
+- 
+
+
+
+
