@@ -26,13 +26,5 @@
 - tablet security
 
 
-##### questions for RB
-
-- subwoofers need to move
-- ipads for rent from USF?
-- mac mini processing speed and RAM?
-- 
-
-
 
 
