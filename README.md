@@ -1,4 +1,4 @@
-## Days to milestone
+## (4) Days to milestone
 ### now 
 
 - divide screen into two sections
@@ -22,7 +22,6 @@
 
 - lighting is key, schedule extra time for calibration
 - make one display table with instructions
-- removable matte vinyl decal (~$40)
 - tablet security
 
 
@@ -30,8 +29,7 @@
 
 - subwoofers need to move
 - ipads for rent from USF?
-- mac mini processing speed and RAM?
-- 
+
 
 
 
