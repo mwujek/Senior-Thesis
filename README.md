@@ -25,6 +25,7 @@
 - tablet security
 
 
+<<<<<<< HEAD
 ##### questions for RB
 
 - subwoofers need to move
@@ -32,5 +33,7 @@
 
 
 
+=======
+>>>>>>> FETCH_HEAD
 
 
