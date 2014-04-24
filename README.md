@@ -1,4 +1,4 @@
-## (5) Days to milestone
+## (4) Days to milestone
 ### now 
 
 - figure out how to split the video.
@@ -8,6 +8,12 @@
 - business card (edge painted DIY)
 - table design (SATURDAY)
 - laser cutter visit w arturo
+- complete indd for baseball
+
+#### thesis hw
+
+- revised wall text
+- pdf draft 4 catalog
 
 ##### visit
 
