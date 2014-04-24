@@ -7,6 +7,7 @@
 - make a simple business card (black and white)
 - business card (edge painted DIY)
 - table design (SATURDAY)
+- laser cutter visit w arturo
 
 ##### visit
 
