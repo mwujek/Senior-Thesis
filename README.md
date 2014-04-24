@@ -1,39 +1,22 @@
 ## (4) Days to milestone
 ### now 
 
-- divide screen into two sections
-- double up circle and attractor classes
-- make a seperate sketch for double classes 
-- for new sketch, only intiate one circle class, but setup ALL classes
+- figure out how to split the video.
+- reconfigure thesis hypothesis (instead of spectrum, four states?) You could change the color as a spectrum, but change the attractors in 4-6 states rather than a range.
+- write copy for the information table
+- make a simple business card (black and white)
+- business card (edge painted DIY)
+- table design (SATURDAY)
 
-### later
+##### visit
 
-- connect / link similar circle classes
-- Tablet Kiosk Mode
+- visit and take measurements
+- measure TV screen at home
+- look at power sources
 
-##### research + design + documentation
+#### call 2 chris
 
-- design instructions
-- psychology research
-- business card
-- website documentation
-
-##### setup & installation
-
-- lighting is key, schedule extra time for calibration
-- make one display table with instructions
-- tablet security
-
-
-<<<<<<< HEAD
-##### questions for RB
-
-- subwoofers need to move
-- ipads for rent from USF?
-
-
-
-=======
->>>>>>> FETCH_HEAD
+- plug for lights?
+- disfuse lighting? (less intense) 
 
 
