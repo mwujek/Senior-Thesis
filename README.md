@@ -1,5 +1,4 @@
 ## (1) Days to milestone
-### now 
 
 - reconfigure thesis hypothesis (instead of spectrum, four states?) You could change the color as a spectrum, but change the attractors in 4-6 states rather than a range.
 - 
