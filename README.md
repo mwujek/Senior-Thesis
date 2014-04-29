@@ -1,14 +1,16 @@
-## (4) Days to milestone
-### now 
 
-- figure out how to split the video.
-- reconfigure thesis hypothesis (instead of spectrum, four states?) You could change the color as a spectrum, but change the attractors in 4-6 states rather than a range.
+## now
+
+- make if/else statements for each of the 16 types (16 Left + 16 Right = 32 total)
+- make this code on a new tab
+- use simple boolean to trigger the attractor position. THEN...
+- Add two toggle states...see table for rules (change attractors to left or right)
+
+### soon 
+
 - write copy for the information table
-- make a simple business card (black and white)
 - business card (edge painted DIY)
-- table design (SATURDAY)
-- laser cutter visit w arturo
-- complete indd for baseball
+- table design
 
 #### thesis hw
 
