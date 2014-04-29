@@ -1,6 +1,7 @@
 
 ## now
 
+- split screen into two sections! (left is possible. How do you do two?? Another object for openCV?)
 - make if/else statements for each of the 16 types (16 Left + 16 Right = 32 total)
 - make this code on a new tab
 - use simple boolean to trigger the attractor position. THEN...
