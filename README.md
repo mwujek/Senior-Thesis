@@ -11,6 +11,16 @@
 - write copy for the information table
 - business card (edge painted DIY)
 - table design
+=======
+## (1) Days to milestone
+
+- reconfigure thesis hypothesis (instead of spectrum, four states?) You could change the color as a spectrum, but change the attractors in 4-6 states rather than a range.
+- 
+- write copy for the information table
+- make a simple business card (black and white)
+- table design (SATURDAY)
+- Ask Scott how to stretch the video with openCV
+>>>>>>> FETCH_HEAD
 
 #### thesis hw
 
