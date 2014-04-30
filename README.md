@@ -7,6 +7,7 @@
 - desaturate all of the iPad tones (gray or brown).
 - make 8 possibilities for each person. Right now there are only 4 different colors.
 - make the left the same colors as the right. If the types are the same, the colors should be too.
+- sounds for snapshot and changed value. attract or repel?
 
 - ### Installation
 - write copy for the information table
