@@ -1,6 +1,8 @@
-
 ## now
 
+- make sound for snapshot. This will be triggered by third (NEXUS) tablet.
+- debug the vertice problem
+- make a button to restart sketch...this will restart the values to be desaturated regardless of the ipad slider positions.
 
 - ### Processing Program:
 - View spreadsheet example via Processing
