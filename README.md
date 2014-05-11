@@ -2,35 +2,22 @@
 
 - make sound for snapshot. This will be triggered by third (NEXUS) tablet.
 - debug the vertice problem
-- make a button to restart sketch...this will restart the values to be desaturated regardless of the ipad slider positions.
+- make a button to restart sketch...this will restart the values to be desaturated regardless of the ipad slider positions
+- make range rather than 3 states...might be too difficult with 4 seperate variables (-4 to 4)
 
 - ### Processing Program:
-- View spreadsheet example via Processing
-- desaturate all of the iPad tones (gray or brown).
-- make 8 possibilities for each person. Right now there are only 4 different colors.
-- make the left the same colors as the right. If the types are the same, the colors should be too.
+
 - sounds for snapshot and changed value. attract or repel?
 
 - ### Installation
 - write copy for the information table
 - business card (edge painted DIY)
-- table design
-
-
 
 ### soon 
 
-
 - split screen into two sections! (left is possible. How do you do two?? Another object for openCV?)
 
-=======
+### need to buy
 
-- reconfigure thesis hypothesis (instead of spectrum, four states?) You could change the color as a spectrum, but change the attractors in 4-6 states rather than a range.
-
-##### visit
-
-- visit and take measurements
-- measure TV screen at home
-- look at power sources
-
-
+- extension cords
+- locks for tether
