@@ -8,9 +8,11 @@
 
 - ### Installation
 - write copy for the information table
+- make wireframe illustrations
 - business cards
 
-### soon 
+### tests 
 
-- split screen into two sections! (left is possible. How do you do two?? Another object for openCV?)
+- split screen into two sections! Use only what is necessary: 1 circle class generated from the top.
+- crop video (to crop out the dark sides)
 
