@@ -1,0 +1,17 @@
+Type,ISTJ,ISTP,ESTP,ESTJ,ISFJ,ISFP,ESFP,ESFJ,INFJ,INFP,ENFP,ENFJ,INTJ,INTP,ENTP,ENTJ
+ISTJ,1,1,1,1,blank,blank,-1,-1,blank,-1,-1,blank,1,blank,blank,blank
+ISTP,1,-1,1,1,blank,blank,-1,blank,-1,-1,-1,-1,blank,-1,-1,1
+ESTP,1,1,1,blank,blank,blank,1,-1,-1,-1,-1,-1,-1,blank,blank,blank
+ESTJ,1,1,blank,-1,1,blank,blank,1,-1,-1,-1,-1,1,blank,blank,1
+ISFJ,blank,blank,blank,1,1,blank,blank,blank,blank,blank,-1,1,-1,-1,-1,-1
+ISFP,blank,blank,blank,blank,blank,1,1,blank,blank,blank,blank,blank,-1,-1,-1,-1
+ESFP,-1,-1,1,blank,blank,1,blank,blank,blank,blank,blank,blank,-1,-1,blank,-1
+ESFJ,-1,blank,-1,1,blank,blank,blank,blank,-1,blank,1,blank,-1,-1,-1,-1
+INFJ,blank,-1,-1,-1,blank,blank,blank,-1,1,1,1,1,blank,blank,1,blank
+INFP,-1,-1,-1,-1,blank,blank,blank,blank,1,1,1,1,-1,blank,blank,-1
+ENFP,-1,-1,-1,-1,-1,blank,blank,1,1,1,1,1,blank,blank,blank,blank
+ENFJ,blank,-1,-1,-1,1,blank,blank,blank,1,1,1,1,-1,blank,blank,1
+INTJ,blank,1,-1,1,-1,-1,-1,-1,blank,-1,blank,-1,1,blank,-1,1
+INTP,blank,-1,blank,blank,-1,-1,-1,-1,blank,blank,blank,blank,1,1,1,blank
+ENTP,blank,-1,blank,blank,-1,-1,blank,-1,1,blank,blank,blank,-1,1,1,blank
+ENTJ,blank,1,blank,1,-1,-1,-1,-1,blank,-1,blank,1,1,blank,blank,1

@@ -31,6 +31,12 @@ void oscEvent(OscMessage theOscMessage) {
 
   //NEW VALUES
   //LEFT SIDE************************************************************
+  
+  //restart sketch
+   if (addr.equals("/1/push3")) { 
+    restartButton = val;
+     //change.trigger();
+  }
  if (addr.equals("/1/push1")) { 
     restartValue = val;
      //change.trigger();

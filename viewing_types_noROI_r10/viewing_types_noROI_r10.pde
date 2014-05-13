@@ -143,6 +143,8 @@ PFont font;
 float textValue;
 
 float restartValue =0.0f;
+float restartButton =0.0f;
+
 String eValue ="";
 String sValue ="";
 String tValue ="";
@@ -390,6 +392,12 @@ if(restartValue==1.0){
     ellipse((width/2+70),height-25,120,120);
   }
     
+    
+    //RESTART SKETCH IF BUTTON PRESSED
+    
+    if(restartButton>0.5){
+        setup();
+    }
     
     //addedmargin here
     if(eiLeftSaturation<0){
