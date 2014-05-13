@@ -1,0 +1,17 @@
+Type,ISTJ,ISTP,ESTP,ESTJ,ISFJ,ISFP,ESFP,ESFJ,INFJ,INFP,ENFP,ENFJ,INTJ,INTP,ENTP,ENTJ
+ISTJ,green,green,green,green,blank,blank,red,red,blank,red,red,blank,green,blank,blank,blank
+ISTP,green,red,green,green,blank,blank,red,blank,red,red,red,red,blank,red,red,green
+ESTP,green,green,green,blank,blank,blank,green,red,red,red,red,red,red,blank,blank,blank
+ESTJ,green,green,blank,red,green,blank,blank,green,red,red,red,red,green,blank,blank,green
+ISFJ,blank,blank,blank,green,green,blank,blank,blank,blank,blank,red,green,red,red,red,red
+ISFP,blank,blank,blank,blank,blank,green,green,blank,blank,blank,blank,blank,red,red,red,red
+ESFP,red,red,green,blank,blank,green,blank,blank,blank,blank,blank,blank,red,red,blank,red
+ESFJ,red,blank,red,green,blank,blank,blank,blank,red,blank,green,blank,red,red,red,red
+INFJ,blank,red,red,red,blank,blank,blank,red,green,green,green,green,blank,blank,green,blank
+INFP,red,red,red,red,blank,blank,blank,blank,green,green,green,green,red,blank,blank,red
+ENFP,red,red,red,red,red,blank,blank,green,green,green,green,green,blank,blank,blank,blank
+ENFJ,blank,red,red,red,green,blank,blank,blank,green,green,green,green,red,blank,blank,green
+INTJ,blank,green,red,green,red,red,red,red,blank,red,blank,red,green,blank,red,green
+INTP,blank,red,blank,blank,red,red,red,red,blank,blank,blank,blank,green,green,green,blank
+ENTP,blank,red,blank,blank,red,red,blank,red,green,blank,blank,blank,red,green,green,blank
+ENTJ,blank,green,blank,green,red,red,red,red,blank,red,blank,green,green,blank,blank,green
