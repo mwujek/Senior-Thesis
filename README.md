@@ -1,16 +1,21 @@
 ## now
+- debug the vertice problem (solved)
 
-- debug the vertice problem
-- right and left livesurface
 
-- ### Installation
+### Installation
 - write copy for the information table
 - make wireframe illustrations
 - business cards
 
-### tests 
+### other misc.
 
+- ds+c layout, copy, book, and print
+- go to woodshop and drill holes
+- " " and make moveable light fixture
+- take these things to SOMArts: drill, extra battery, screws measuring tape, extension cord, duct tape, museum putty, moveable light fixture, cords, new webcam, and foil
 
-### later
+### install
 
-- make visuals for circles
+- fix lights with museum putty
+- uninstall/disable power saving on admin
+- setup ipads (leave iPads @ SOMArts)
