@@ -1,8 +1,7 @@
 ## now
 
 - debug the vertice problem
-- make visuals for circles
-
+- right and left livesurface
 
 - ### Installation
 - write copy for the information table
@@ -11,6 +10,7 @@
 
 ### tests 
 
-- split screen into two sections! Use only what is necessary: 1 circle class generated from the top.
-- crop video (to crop out the dark sides)
 
+### later
+
+- make visuals for circles
